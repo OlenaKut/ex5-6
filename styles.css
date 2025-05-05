@@ -92,6 +92,14 @@ body {
   margin: 80px 0;
 }
 
+.trailer {
+  width: 80%;
+  height: 540px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(125, 125, 126, 0.2);
+  border: none;
+}
+
 
 .social-media {
   display: flex;
