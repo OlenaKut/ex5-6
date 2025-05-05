@@ -5,63 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Guide Movie</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+
 </head>
 <body>  
-    <header>
-        <div class="header">
-            <img src="src/banner.jpg" alt="The Guide Banner" class="logo">
-            <img src="src/logo.jpg" alt="The Guide Logo" class="logo">
-            <h1>The Guide</h1>
+    
+    <header class="header">
+        <div class="title-container">
+            <h1 class="title">The Guide</h1>
+            <h4 class="year">2014 ‧ Drama / War</h4>
         </div>
-     
+        <div class="rating">
+            <h4 class="imdb">IMDb RATING</h4>
+            <h5 class="stars">&#11088; 7.7/10</h5>
+            <h6>3.6K</h6>
+        </div>
     </header>
+
     <main>
-    <div>
-        <div>
-            <h2>Info</h2>
-            <dl>
-                <dt>IMDb RATING</dt>
-                <dd>
-                    &#11088; 7.7/10
-                <br>
-                    3.6K
-                 </dd>
-                <dt>Release dates</dt>
-                <dd>16 July 2014</dd>
-                <dt>Director</dt>
-                <dd>Oles Sanin</dd>
-                <dt>Cast</dt>
-                <dd><img src="src/cast/bklan.jpg"> Boklan</dd>
-                <dd><img src="src/cast/burrell.jpeg">Jeff Burrell</dd>
-                <dd><img src="src/cast/jamala.jpg">Jamala</dd>
-                <dd><img src="src/cast/boris.jpg">Boris Georgievskiy</dd>
-                <dt>Storyline</dt>
-                <dd>Peter is a 10-year-old boy living in the midst of turbulent early-1930s Soviet Ukraine. His father, an American engineer, is killed for obtaining secret documents about the repressions, which now are hidden in Peter's book. The boy flees from the police with a blind kobzar (Ukrainian folk minstrel), Ivan Kocherga. Ivan does everything to help his young guide grow up and survive with a kind and clear soul that will not be hardened by what his eyes have seen. He tells his young guide elaborate stories that make him believe there can be a different reality from what he sees around him. The viewer is challenged to admit that the blind kobzar might see the world with greater clarity than those with perfect eyes</dd>
+        <h2 class="subtitle">Inspired by real life events</h2>
+    <div class="about">
+        <div class="left-column">
+         <dl>
+                <dt class="about-title">Release dates</dt>
+                <dd class="about-info">16 July 2014</dd>
+                <dt class="about-title">Director</dt>
+                <dd class="about-info">Oles Sanin</dd>
+                <dt class="about-title">Cast</dt>
+                <dd class="about-info"><img src="src/cast/bklan.jpg" alt="Stanislav Boklan" class="cast"> Stanislav Boklan</dd>
+                <dd class="about-info"><img src="src/cast/burrell.jpeg" alt="Jeff Burrell" class="cast"> Jeff Burrell</dd>
+                <dd class="about-info"><img src="src/cast/jamala.jpg" alt="Jamala" class="cast"> Jamala</dd>
+                <dd class="about-info"><img src="src/cast/boris.jpg" alt="Boris Georgievskiy" class="cast">   Boris Georgievskiy</dd>
         </dl>
-        <p>Storyline</p>
-
-         
         </div>
-        <iframe width="560" height="315" 
-        src="https://www.youtube.com/embed/y_xRc-2Whf4?si=pSXQzT6EVKHgimZH" 
-        title="YouTube video player" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
-    </iframe>
+        <div class="right-column">
+            <h3 class="about-title">Storyline</h3>
+            <p class="description about-info">Peter is a 10-year-old boy living in the midst of turbulent early-1930s Soviet Ukraine. His father, an American engineer, is killed for obtaining secret documents about the repressions, which now are hidden in Peter's book. The boy flees from the police with a blind kobzar (Ukrainian folk minstrel), Ivan Kocherga. Ivan does everything to help his young guide grow up and survive with a kind and clear soul that will not be hardened by what his eyes have seen. He tells his young guide elaborate stories that make him believe there can be a different reality from what he sees around him. The viewer is challenged to admit that the blind kobzar might see the world with greater clarity than those with perfect eyes</p>
+        </div>
+    </div>
+    <div class="video-container">  
+        <iframe width="900" height="600" 
+            src="https://www.youtube.com/embed/y_xRc-2Whf4?si=pSXQzT6EVKHgimZH" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen
+            class="trailer">
+        </iframe>
+    </div>
+    <div class="social-media">
+        <a href="https://www.imdb.com/title/tt3037582/" class="link" target="_blank"><img src="src/IMDB_Logo_2016.png" class="social-icon" alt="IMDb link"></a>
+        <a href="https://www.youtube.com/@TheGuideMovie" class="link" target="_blank"><img src="src/youtube_Logo.png" class="social-icon" alt="YouTube link"></a>
+        <a href="https://en.wikipedia.org/wiki/The_Guide_(film)" class="link" target="_blank"><img src="src/Wikipedia-logo.png" class="social-icon" alt="Wikipedia link"></a>
     </div>
 
-    <div>
-        <ul>
-            <li><a href="https://www.imdb.com/title/tt3037582/"><img src="src/IMDB_Logo_2016.png"></a></li>
-            <li><a href="https://www.youtube.com/@TheGuideMovie"><img src="src/youtube_Logo.png"></a></li>
-            <li><a href="https://en.wikipedia.org/wiki/The_Guide_(film)"><img src="src/Wikipedia-logo-v2.svg.png"></a></li>
-        </ul>
-    </div>
 
     </main>
-    <footer>
-        <p>Webmaster: Olena Kutasevych/Lexicon | Commissioned by  Filmbolaget FS</p>
+    <footer class="footer">
+        <img src="src/logo1.jpg" alt="The Guide Poster" class="logo">
+        <p class="webmaster">Webmaster: Olena Kutasevych/Lexicon | Commissioned by  Filmbolaget FS</p>
     </footer>
 
 </body>

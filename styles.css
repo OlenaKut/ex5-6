@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(38, 37, 37);
+  margin: 0 auto;
+  padding: 10px;
+  color: #fff;
+  width: 80%;
+}
+
+.header {
+  display: flex;
+  align-items: ;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(95, 96, 98, 0.2);
+  background-image: url("src/banner.jpg");
+  margin-bottom: 40px;
+}
+
+.title-container {
+  padding: 40px;
+}
+
+.title {
+  font-family: "Cinzel", serif;
+  font-size: 72px;
+  text-transform: uppercase;
+  margin-bottom: -24px;
+}
+.rating {
+  margin-left: auto;
+  margin-top: auto;
+  padding-right: 20px;
+}
+
+
+.imdb {
+  margin-bottom: -10px;
+}
+
+.stars {
+  margin-bottom: -20px;
+}
+
+.subtitle {
+  font-family: "Cinzel", serif;
+  font-size: 28px;
+}
+
+.about {
+  display: flex;
+  gap: 36px;
+  align-items: flex-start;
+}
+
+.left-column {
+  flex: 0 0 400px;
+}
+
+.right-column {
+  flex: 1; 
+}
+
+.about-title {
+  font-size: 24px;
+  margin: 20px 0px 10px;
+  color:rgb(180, 128, 128);
+ }
+
+ .right-column .about-title {
+  font-weight: normal;
+ }
+
+.about-info {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.description {
+  line-height: 2;
+  
+}
+
+.cast {
+  width: 50px;
+  border-radius: 50%;
+  margin: 0 10px;
+  box-shadow: 0 4px 8px rgba(125, 125, 126, 0.2);
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin: 80px 0;
+}
+
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 40px;
+  align-items: center;
+  gap: 48px;
+}
+
+
+.social-icon {
+  width: 60px;
+  height: auto;
+}
+
+  .footer {
+   display: flex;
+   margin-bottom: 40px;
+  justify-content: center;
+  } 
+
+  .logo {
+    width: 25%;
+    height: auto;
+    border-radius: 10px;
+    padding: 0 20px 0 0;
+
+  }
+  .webmaster {
+    align-self: center;
+  }
